@@ -4,6 +4,7 @@ pavelweatherbot
 */
 
 const { Telegraf } = require('telegraf')
+require('dotenv').config()
 const axios = require('axios')
 
 const bot = new Telegraf(process.env.API_KEY_TELEGRAPH)
